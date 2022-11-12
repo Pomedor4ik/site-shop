@@ -14,11 +14,11 @@ body {
 
 .logo {
     position: absolute;
-    width: 86px;
-    height: 58px;
-    left: 28.76px;
-    top: 28.29px;
-    
+    width: 120px;
+    height: 80px;
+    left: 15.76px;
+    top: 20.29px;
+    transform: rotate(0.8deg);
     
 }
 
@@ -64,7 +64,7 @@ body {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 24px;
     text-align: center;
     border-radius: 25px;
@@ -76,7 +76,7 @@ body {
     display: inline-block;
     width: 20%;
     height: 934px;
-    margin-left: 100px;
+    margin-left: 50px;
     border-right: 5px solid rgba(150, 0, 196, 0.705);
 }
 
@@ -92,6 +92,8 @@ body {
     top: 170px;
     margin-top: 45px;
 
+    cursor: pointer;
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
@@ -99,7 +101,7 @@ body {
     line-height: 36px;
     border-radius: 16px;
     background-color: rgb(170, 110, 170);
-    padding-right: 30px;
+    padding-right: 20px;
 
     color: #000000;
 }
@@ -112,6 +114,8 @@ body {
     top: 299px;
     margin-top: 45px;
 
+    cursor: pointer;
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
@@ -119,7 +123,7 @@ body {
     line-height: 36px;
     border-radius: 16px;
     background-color: rgb(170, 110, 170);
-    padding-inline-start: 0px;
+    padding-right: 80px;
 
     color: #000000;
 }
@@ -132,6 +136,8 @@ body {
     top: 426px;
     margin-top: 45px;
 
+    cursor: pointer;
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
@@ -139,6 +145,7 @@ body {
     line-height: 36px;
     border-radius: 16px;
     background-color: rgb(170, 110, 170);
+    padding-right: 180px;
 
     color: #000000;
 }
@@ -151,6 +158,8 @@ body {
     top: 548px;
     margin-top: 45px;
 
+    cursor: pointer;
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
@@ -158,6 +167,7 @@ body {
     line-height: 36px;
     border-radius: 16px;
     background-color: rgb(170, 110, 170);
+    padding-right: 145px;
 
     color: #000000;
 }
@@ -170,6 +180,8 @@ body {
     top: 674px;
     margin-top: 45px;
 
+    cursor: pointer;
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
@@ -177,7 +189,44 @@ body {
     line-height: 36px;
     border-radius: 16px;
     background-color: rgb(170, 110, 170);
+    padding-right: 210px;
 
     color: #000000;
 }
 
+.prodactsBlock {
+    display: inline-block;
+    width: 79%;
+}
+
+.productsItem {
+    position: absolute;
+    width: 215px;
+    height: 240px;
+    left: 520px;
+    top: 160px;
+    border-radius: 10px;
+
+    background-color: rgba(112, 46, 122, 0.77);
+}
+
+.productImg {
+    position: absolute;
+    width: 65%;
+    height: 175px;
+    margin-top: 5%;
+    margin-left: 17%;
+    margin-right: 5%;
+}
+
+.priductTitke  {
+    width: 145px;
+    height: 36px;
+    
+    padding-top: 75%;
+    margin-left: 15%;
+
+    font-size: 30px;
+
+    color: #080707;
+}
