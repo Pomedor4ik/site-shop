@@ -72,22 +72,29 @@ body {
     color: rgba(0, 0, 0, 0.856);
 }
 
-.navBar {
-    display: inline-block;
-    width: 20%;
-    margin-left: 50px;
-    border-right: 5px solid rgba(150, 0, 196, 0.705);
-    background-color: blueviolet;
+
+
+.prodactsBlock {
+    display: flex;
 }
 
 .menu {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navBar {
+    width: 14px;
+    height: 1000px;
+    margin-left: 50px;
+    border-right: 5px solid rgba(150, 0, 196, 0.178);
+    background-color: rgba(150, 0, 196, 0.685);
     
-    padding: 40px;
 }
 
 .korolevska-bitva {
-    position: absolute;
+    /* position: absolute; */
     width: 320px;
     height: 60px;
     left: 30px;
@@ -109,7 +116,7 @@ body {
 }
 
 .otkruruy-mir {
-    position: absolute;
+    /* position: absolute; */
     width: 320px;
     height: 60px;
     left: 30px;
@@ -131,7 +138,7 @@ body {
 }
 
 .arkada{
-    position: absolute;
+    /* position: absolute; */
     width: 320px;
     height: 60px;
     left: 30px;
@@ -153,7 +160,7 @@ body {
 }
 
 .pisochnica {
-    position: absolute;
+    /* position: absolute; */
     width: 320px;
     height: 60px;
     left: 30px;
@@ -175,7 +182,7 @@ body {
 }
 
 .gonka{
-    position: absolute;
+    /* position: absolute; */
     width: 320px;
     height: 60px;
     left: 30px;
@@ -196,29 +203,35 @@ body {
     color: #000000;
 }
 
-.prodactsBlock {
-    display: inline-block;
-    width: 65%;
+.items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-content: space-around; */
+    align-content: space-around;
+
+    width: 40%;
+    height: 800px;
+
+    margin-left: 150px;
+    margin-top: 20px;
+    /* background-color: rgb(187, 183, 183); */
 }
 
 .prodactsItem {
-    width: 18%;
-    height: 270px;
-    display: inline-block;
+    width: 230px;
+    height: 230px;
+
     border: 1px solid rgba(112, 46, 122, 0.77);
     background: rgba(112, 46, 122, 0.77);
     border-radius: 10px;
 }
 
-.items {
-    background-color: rgb(218, 238, 238);
-}
-
 .prodactsImg {
-    width: 80%;
-    margin-top: 4%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 170px;
+    height: 170px;
+    margin: 13px 30px;
 }
 
 .priductTitle {
@@ -228,5 +241,6 @@ body {
     font-weight: 800;
     font-size: 20px;
     line-height: 0px;
+   
     
 }
