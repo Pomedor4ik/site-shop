@@ -9,6 +9,9 @@
 body {
     font-family: 'Inter', sans-serif;
     font-family: 'Montserrat', sans-serif;
+
+    background: url(./flat-detailed-gamer-room_23-2148942223.webp);
+    
 }
 
 
@@ -17,7 +20,7 @@ body {
     width: 120px;
     height: 80px;
     left: 15.76px;
-    top: 20.29px;
+    top: 10.29px;
     transform: rotate(0.8deg);
     
 }
@@ -25,15 +28,16 @@ body {
 .gamestore{
     position: absolute;
     width: 86px;
-    height: 58px;
     left: 128.76px;
-    top: 17.29px;    
+    top: 8.29px;    
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 50;
     font-size: 40px;
     line-height: 0px;
+
+    margin-top: 40px;
 }
 
 .searchInput {
@@ -82,13 +86,13 @@ body {
     display: flex;
     flex-direction: column;
 
+    margin-left: 18px;
 }
 
 .navBar {
     width: 14px;
     height: 1000px;
     margin-left: 50px;
-    border-right: 5px solid rgba(150, 0, 196, 0.178);
     background-color: rgba(150, 0, 196, 0.685);
     
 }
@@ -109,7 +113,7 @@ body {
     font-size: 30px;
     line-height: 36px;
     border-radius: 16px;
-    background-color: rgb(170, 110, 170);
+    background-color: rgba(170, 110, 170, 0.699);
     padding-right: 20px;
 
     color: #000000;
@@ -131,7 +135,7 @@ body {
     font-size: 30px;
     line-height: 36px;
     border-radius: 16px;
-    background-color: rgb(170, 110, 170);
+    background-color: rgba(170, 110, 170, 0.705);
     padding-right: 80px;
 
     color: #000000;
@@ -153,7 +157,7 @@ body {
     font-size: 30px;
     line-height: 36px;
     border-radius: 16px;
-    background-color: rgb(170, 110, 170);
+    background-color: rgba(170, 110, 170, 0.705);
     padding-right: 180px;
 
     color: #000000;
@@ -175,7 +179,7 @@ body {
     font-size: 30px;
     line-height: 36px;
     border-radius: 16px;
-    background-color: rgb(170, 110, 170);
+    background-color: rgba(170, 110, 170, 0.699);
     padding-right: 145px;
 
     color: #000000;
@@ -197,7 +201,7 @@ body {
     font-size: 30px;
     line-height: 36px;
     border-radius: 16px;
-    background-color: rgb(170, 110, 170);
+    background-color: rgba(170, 110, 170, 0.699);
     padding-right: 210px;
 
     color: #000000;
@@ -221,7 +225,7 @@ body {
 
 .prodactsItem {
     width: 230px;
-    height: 230px;
+    height: 220px;
 
     border: 1px solid rgba(112, 46, 122, 0.77);
     background: rgba(112, 46, 122, 0.77);
